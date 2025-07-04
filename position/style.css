@@ -1,0 +1,47 @@
+body {
+  background-color: #e7f6f2;
+}
+
+/* NavBar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: red;
+  padding: 0.7rem 4rem;
+}
+
+.navbar .logo {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar svg {
+  color: white;
+}
+
+/* Header */
+header h1 {
+  border: 3px solid red;
+}
+
+/* Main */
+.article-container {
+  border: 3px solid red;
+  padding: 2rem 4rem;
+}
+
+.article-content {
+  border: 3px solid red;
+  display: grid;
+  grid-template-columns: 70% auto;
+}
+
+.article-content p {
+  max-width: 115ch;
+}
+
+aside {
+  border: 3px solid red;
+}
