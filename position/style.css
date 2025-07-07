@@ -21,9 +21,10 @@ body {
   color: white;
 }
 
-/* Header */
-header h1 {
-  border: 3px solid red;
+.page-title {
+  background-color: rebeccapurple;
+  color: white;
+  position: relative;
 }
 
 /* Main */
@@ -36,12 +37,26 @@ header h1 {
   border: 3px solid red;
   display: grid;
   grid-template-columns: 70% auto;
+  position: relative;
+  /* position: fixed; */
 }
 
 .article-content p {
   max-width: 115ch;
 }
 
-aside {
-  border: 3px solid red;
+.article-title {
+  background-color: orchid;
+  /* position: absolute;
+  width: 50%; */
+}
+
+.hero-section {
+  height: 300px;
+}
+
+aside{
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
 }
