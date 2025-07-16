@@ -10,6 +10,9 @@ body {
   justify-content: space-between;
   background-color: red;
   padding: 0.7rem 4rem;
+  position: sticky;
+  width: 100%;
+  top: 10px;
 }
 
 .navbar .logo {

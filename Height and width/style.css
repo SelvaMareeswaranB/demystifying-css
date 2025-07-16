@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+}
+
+.parent{
+    background-color: aqua;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.child{
+    background-color: blue;
+    height: 70px;
+    width: 750px;
+}
