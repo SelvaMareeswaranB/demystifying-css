@@ -1,0 +1,35 @@
+.box {
+  width: 600px;
+  height: 600px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 50px;
+  border: 1px solid grey;
+  background-color: cornsilk;
+}
+
+.anime{
+    animation-name: percentages;
+    animation-duration: 5s;
+}
+
+@keyframes percentages {
+  0% {
+    background-color: darkcyan;
+  }
+  25% {
+    background-color: cyan;
+  }
+
+  50% {
+    background-color: darkgrey;
+  }
+  75% {
+    background-color: lawngreen;
+  }
+
+  100% {
+    background-color: darkorchid;
+  }
+}
