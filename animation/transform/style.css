@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  color: beige;
+  background: aqua;
+  font-size: 2rem;
+}
+
+.rotate {
+  transform: rotate(0.5turn);
+}
+
+.scale {
+  transform: scale(1.4,0.3);
+}
+
+.translate{
+    transform: translate(100%);
+}
+
+.skew{
+    transform: skew(30deg,30deg);
+}
